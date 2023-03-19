@@ -1,0 +1,134 @@
+.experiencia {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  padding: 5vw 0;
+  margin: 0 auto;
+  gap: 6.5rem;
+  /* padding: 0 10vw 0 110px; */
+  /* margin: 0 110px 50px 0; */
+  /* gap: 12.5rem; */
+}
+.experiencia__titulo {
+  word-break: break-all;
+  max-width: 5ch;
+  text-transform: uppercase;
+  font-size: 100px;
+  color: var(--titulo-secundario);
+  line-height: 1;
+}
+.experiencia__container {
+  display: grid;
+  gap: 15px;
+  margin-left: 70px;
+}
+.experiencia__texto {
+  font-size: 22px;
+  color: var(--cinza-claro);
+  margin-bottom: 50px;
+  max-width: 45ch;
+  padding-left: 50px;
+}
+.experiencia__texto strong {
+  color: var(--cor-textos);
+}
+.experiencia__conteudo {
+  display: grid;
+  grid-template-columns: 50px repeat(2, 2fr);
+}
+.experiencia__ano {
+  font-size: 14px;
+}
+.experiencia__ano__ghost {
+  display: none;
+}
+.experiencia__ano p {
+  border-right: 4px solid red;
+  margin: 12px 0;
+  text-align: center;
+}
+.experiencia__nome__projeto {
+  background-color: var(--experiencia-nome-projeto);
+  padding: 10px 10px;
+  font-size: 14px;
+  border-radius: 4px 0 0 4px;
+}
+.projeto {
+  margin: 5px 0;
+}
+.experiencia__skill {
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  height: 100%;
+  background-color: var(--experiencia-nome-projeto);
+  border-radius: 0 4px 4px 0;
+}
+.skill__nome {
+  padding: 5px 10px;
+  background-color: var(--cor-botao);
+  font-size: 14px;
+}
+@media screen and (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .experiencia__titulo__container {
+  }
+  .experiencia__titulo {
+    font-size: 50px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .experiencia__texto {
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+    line-height: 1.5;
+  }
+  .experiencia {
+    margin: 0 auto;
+  }
+  .experiencia__container {
+    margin: 0 auto;
+    padding: 10vw;
+  }
+  .experiencia__conteudo {
+    grid-template-columns: 1fr 1fr;
+  }
+  .experiencia__ano {
+    display: none;
+  }
+  .projeto {
+    position: relative;
+  }
+  .experiencia__ano__ghost {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    border-left: 2px solid red;
+    padding: 0 10px;
+  }
+  @media screen and (max-width: 400px) {
+    .experiencia__titulo {
+      margin-top: 20px;
+    }
+    .experiencia__conteudo {
+      grid-template-columns: auto;
+    }
+    .experiencia__skill {
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 5px;
+    }
+  }
+}

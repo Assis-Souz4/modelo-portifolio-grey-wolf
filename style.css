@@ -1,0 +1,24 @@
+@import url(./estilos/reset.css);
+@import url(./estilos/header.css);
+@import url(./estilos/principal.css);
+@import url(./estilos/experiencia.css);
+@import url(./estilos/formacao.css);
+
+:root{
+    --font-principal:'Fira Sans', Arial;
+    --cor-textos: #141414;
+    --cor-botao: #f5f5f5;
+    --cinza-claro:#525252;
+    --titulo-secundario: #e0e0e0;
+    --experiencia-nome-projeto: #e0e0e0;
+    --formacao-texto-cinza:#a3a3a3;
+    --formacao-texto-branco:#fff;
+    --formacao-titulo:#000;
+    --formacao-background-cursos:#000;
+
+}
+
+body{
+    font-family: var(--font-principal);
+    color: var(--cor-texto);
+}

@@ -1,0 +1,191 @@
+.formacao {
+  background-color: var(--cor-textos);
+}
+.formacao__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  padding: 5vw 0;
+  background-color: var(--cor-textos);
+  margin: 0 auto;
+  gap: 6.5rem;
+  /* background-color: var(--cor-textos); */
+  /* padding: 100px 10vw 0 110px; */
+  /* max-width: 100vw; */
+  /* gap: 200px; */
+}
+.formacao__titulo {
+  font-size: 100px;
+  word-break: break-all;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 6ch;
+  color: var(--formacao-titulo);
+}
+/* .formacao__container {
+  display: grid;
+  gap: 15px;
+  margin-left: 70px;
+} */
+.formacao__conteudo {
+  margin-left: 70px;
+}
+.formacao__texto {
+  font-size: 22px;
+  color: var(--cinza-claro);
+  margin-bottom: 50px;
+  max-width: 45ch;
+  padding-left: 50px;
+}
+.formacao__texto strong {
+  color: var(--formacao-texto-branco);
+}
+.formacao__info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-left: 50px;
+}
+.formacao__cursos {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px 20px;
+  border-radius: 4px;
+
+  background-color: var(--formacao-background-cursos);
+  /* word-break: break-all; */
+}
+.formacao__nome-formacao {
+  color: var(--formacao-texto-cinza);
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 100;
+}
+.formacao__cargo {
+  margin-bottom: 10px;
+  flex: 1;
+  color: var(--formacao-texto-branco);
+  position: relative;
+}
+.formacao__instituicao {
+  color: var(--formacao-texto-cinza);
+  font-weight: 600;
+}
+.formacao__cargo::before {
+  display: block;
+  content: "";
+  width: 10px;
+  height: 16px;
+  position: absolute;
+  display: flex;
+  border-right: 4px solid red;
+  left: -32px;
+  top: 2px;
+}
+.formacao__complemento {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 80px 0 50px 50px;
+  gap: 50px ;
+}
+.formacao__curso-intensivo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.curso-intensivo__lista {
+  display: flex;
+}
+.curso__intensivo-titulo {
+  color: var(--formacao-texto-cinza);
+  position: relative;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.curso__intensivo-titulo::before {
+    display: block;
+    content: "";
+    position: absolute;
+    background-image: url(../src/img/cursos.svg);
+    width: 20px;
+    height: 20px;
+    left: -25px;
+    top: -5px;
+  }
+.nome__curso {
+  width: 100%;
+  font-size: 16px;
+  color: var(--formacao-texto-branco);
+  position: relative;
+}
+.curso__horas {
+  color: var(--cinza-claro);
+  position: relative;
+}
+.formacao__idiomas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.idioma__titulo{
+    color: var(--formacao-texto-cinza);
+    position: relative;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.idioma__titulo::before {
+    display: block;
+    content: "";
+    position: absolute;
+    background-image: url(../src/img/idiomas.svg);
+    width: 20px;
+    height: 20px;
+    left: -25px;
+    top: -5px;
+  }
+.idioma{
+    font-size: 16px;
+    color: var(--formacao-texto-branco);
+}
+.idioma-nivel{
+    font-size: 16px;
+    color: var(--formacao-texto-cinza);
+}
+
+/* .formacao__conteudo {
+}
+.formacao__texto p {
+  font-size: 22px;
+  color: var(--cinza-claro);
+  margin-bottom: 50px;
+  max-width: 45ch;
+
+  color: var(--formacao-texto);
+}
+.formacao__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background-color: tomato;
+  padding: 20px;
+}
+.formacao__instituicao {
+  background-color: var(--formacao-titulo);
+  display: flex;
+  padding: 35px;
+  flex-direction: column;
+}
+.formacao__texto p > strong {
+  color: var(--formacao-texto-enfase);
+}
+.formacao__instituicao h3 {
+  color: var(--formacao-texto);
+  display: block;
+  padding-bottom: 10px;
+}
+.formacao__instituicao span {
+  color: var(--formacao-texto);
+  di

@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+h1 h2 h3 h4 h5 h6 {
+  margin: 0;
+  padding: 0;
+}
