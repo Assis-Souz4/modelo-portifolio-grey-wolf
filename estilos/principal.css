@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 18rem;
-  padding: 5vw 0;
+  padding: 5vw 5vw;
   margin: 0 auto;
 }
 .principal img {

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   max-width: 1200px;
-  padding: 5vw 0;
+  padding: 5vw 5vw;
   margin: 0 auto;
   gap: 6.5rem;
   /* padding: 0 10vw 0 110px; */
@@ -20,7 +20,7 @@
 .experiencia__container {
   display: grid;
   gap: 15px;
-  margin-left: 70px;
+  padding-left: 70px;
 }
 .experiencia__texto {
   font-size: 22px;
@@ -76,8 +76,6 @@
     grid-template-columns: 1fr;
     padding: 0;
     margin: 0 auto;
-  }
-  .experiencia__titulo__container {
   }
   .experiencia__titulo {
     font-size: 50px;
