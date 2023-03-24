@@ -9,10 +9,6 @@
   background-color: var(--cor-textos);
   margin: 0 auto;
   gap: 6.5rem;
-  /* background-color: var(--cor-textos); */
-  /* padding: 100px 10vw 0 110px; */
-  /* max-width: 100vw; */
-  /* gap: 200px; */
 }
 .formacao__titulo {
   font-size: 80px;
@@ -22,11 +18,6 @@
   max-width: 6ch;
   color: var(--formacao-titulo);
 }
-/* .formacao__container {
-  display: grid;
-  gap: 15px;
-  margin-left: 70px;
-} */
 .formacao__conteudo {
   padding-left: 70px;
 }
@@ -80,7 +71,7 @@
   position: absolute;
   display: flex;
   border-right: 4px solid red;
-  left: -32px;
+  left: -44px;
   top: 2px;
 }
 .formacao__complemento {

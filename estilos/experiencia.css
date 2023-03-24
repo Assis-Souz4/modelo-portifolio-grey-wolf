@@ -36,11 +36,10 @@
 .experiencia__ano {
   font-size: 14px;
 }
-.experiencia__ano__ghost {
+/* .experiencia__ano__ghost {
   display: none;
-}
+} */
 .experiencia__ano p {
-  border-right: 4px solid red;
   margin: 12px 0;
   text-align: center;
 }
@@ -52,6 +51,19 @@
 }
 .projeto {
   margin: 5px 0;
+  position: relative;
+}
+.projeto::before{
+   display: block;
+   content: "";
+   width: 10px;
+   height: 16px;
+   position: absolute;
+   display: flex;
+   border-right: 4px solid red;
+   left: -23px;
+   top: 0px;
+
 }
 .experiencia__skill {
   padding: 30px 10px;
@@ -104,14 +116,6 @@
   }
   .projeto {
     position: relative;
-  }
-  .experiencia__ano__ghost {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 70px;
-    border-left: 2px solid red;
-    padding: 0 10px;
   }
   @media screen and (max-width: 400px) {
     .experiencia__titulo {
