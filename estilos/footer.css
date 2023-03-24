@@ -40,3 +40,11 @@
    font-size: .8rem;
    color: var(--cinza-claro);
 }
+@media screen and (max-width:350px){
+   .nav__lista {
+      gap: 20px;
+   }
+   .nav__redes-sociais{
+      gap: 20px;
+   }
+}
