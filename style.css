@@ -3,6 +3,7 @@
 @import url(./estilos/principal.css);
 @import url(./estilos/experiencia.css);
 @import url(./estilos/formacao.css);
+@import url(./estilos/footer.css);
 
 :root{
     --font-principal:'Fira Sans', Arial;
@@ -15,6 +16,8 @@
     --formacao-texto-branco:#fff;
     --formacao-titulo:#000;
     --formacao-background-cursos:#000;
+    --footer-background:#000;
+    --footer-texto-branco:#fff;
 
 }
 
