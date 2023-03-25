@@ -146,6 +146,12 @@
   font-size: 16px;
   color: var(--formacao-texto-cinza);
 }
+@media screen and (max-width: 820px){
+   .formacao__titulo {
+      font-size: 80px;
+      max-width: 4ch;
+    }
+}
 @media screen and (max-width: 800px) {
   .formacao__titulo {
     font-size: 50px;

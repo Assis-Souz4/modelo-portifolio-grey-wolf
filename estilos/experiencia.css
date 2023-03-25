@@ -82,6 +82,13 @@
   background-color: var(--cor-botao);
   font-size: 14px;
 }
+@media screen and (max-width: 820px){
+   .experiencia__titulo {
+      font-size: 80px;
+      max-width: 4ch;
+      line-height: 1.2;
+    }
+}
 
 @media screen and (max-width: 800px) {
   .experiencia {
