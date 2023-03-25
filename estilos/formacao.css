@@ -15,7 +15,7 @@
   word-break: break-all;
   line-height: 1;
   text-transform: uppercase;
-  max-width: 6ch;
+  max-width: 5ch;
   color: var(--formacao-titulo);
 }
 .formacao__conteudo {

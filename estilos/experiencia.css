@@ -8,7 +8,7 @@
 }
 .experiencia__titulo {
   word-break: break-all;
-  max-width: 5ch;
+  max-width: 4ch;
   text-transform: uppercase;
   font-size: 100px;
   color: var(--titulo-secundario);
