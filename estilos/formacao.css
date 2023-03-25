@@ -62,6 +62,7 @@
 .formacao__instituicao {
   color: var(--formacao-texto-cinza);
   font-weight: 600;
+  font-size: 14px;
 }
 .formacao__cargo::before {
   display: block;
