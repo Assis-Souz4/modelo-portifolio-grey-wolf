@@ -197,6 +197,7 @@
     font-size: 20px;
     margin: 20px auto;
     text-align: center;
+    padding: 0 50px;
   }
   .formacao__container {
     padding: 0;
@@ -209,6 +210,8 @@
 @media screen and (max-width: 400px) {
   .formacao__titulo {
     font-size: 25px;
+    padding: 20px 30px;
+   word-break: break-all;
   }
   .formacao__container {
     gap: 10px;
