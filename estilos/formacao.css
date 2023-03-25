@@ -66,13 +66,13 @@
 .formacao__cargo::before {
   display: block;
   content: "";
-  width: 10px;
-  height: 16px;
+  width: 4px;
+  height: 20px;
   position: absolute;
   display: flex;
-  border-right: 4px solid red;
-  left: -44px;
-  top: -4px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  left: -34px;
+  top: -2px;
 }
 .formacao__complemento {
   display: grid;

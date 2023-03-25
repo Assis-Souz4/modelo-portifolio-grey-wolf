@@ -55,14 +55,14 @@
 }
 .projeto::before{
    display: block;
-   content: "";
-   width: 10px;
-   height: 16px;
-   position: absolute;
-   display: flex;
-   border-right: 4px solid red;
-   left: -23px;
-   top: 0px;
+  content: "";
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  display: flex;
+  background: linear-gradient(#b6f829, #67dd0a);
+  left: -14px;
+  top: -2px;
 
 }
 .experiencia__skill {
